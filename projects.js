@@ -1,5 +1,28 @@
 const projects = [
   {
+    id: "movieapp",
+    title: "Movie App",
+    category: "Entertainment",
+    summary:
+      "A sleek movie discovery web app that lets users browse trending films, explore details, and quickly jump into the app experience. The interface is designed to feel modern, responsive, and easy to navigate across devices.",
+    cover:
+      "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1200&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=1200&q=80",
+    ],
+    details:
+      "This movie app focuses on delivering a polished entertainment experience with a strong visual layout and intuitive browsing flow. It showcases a clean front-end experience for discovering movies and exploring what is available at a glance.",
+    features: [
+      "Responsive movie browsing interface",
+      "Modern entertainment-style layout",
+      "Quick access to the live application",
+      "Easy-to-present portfolio showcase",
+    ],
+    links: [{ label: "Live App", url: "https://movieapp-mu-wine.vercel.app/" }],
+  },
+  {
     id: "taskman",
     title: "TaskMan",
     category: "Productivity",
